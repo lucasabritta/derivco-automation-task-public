@@ -1,6 +1,6 @@
 ## Automation tests
 
-For the automation I use jasmine and to run it you just need to open the Test_Task.html
+For the automation I use jasmine and to run it you just need to open the Test_Task.html after the setup
 
 versions:
 ```
@@ -15,11 +15,12 @@ npm -v
 
 ---
 
-## Set up
+## Setup
 
 In the Test_Task.html you need to add the following lines
 
 After the Head tag
+
 ![After head][afterHead]
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.8.0/jasmine.min.css">
@@ -29,6 +30,7 @@ After the Head tag
 ```
 
 After the body tag
+
 ![After body][afterBody]
 ```html
 <script src="jasmine/src/Test_TaskPage.js"></script>
@@ -42,7 +44,7 @@ After the body tag
 
 ---
 
-## Tests cases
+## Tests Scenarios
 
 1. Verify if the balance decrease 1 when the user hit the spin button
 2. Verify if the amount increase when user won
