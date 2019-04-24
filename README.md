@@ -36,8 +36,8 @@ After the body tag
 <script src="jasmine/spec/tests.js"></script>
 ```
 
-[afterBody]: /afterBody.png "afterBody"
-[afterHead]: /afterHead.png "afterHead"
+[afterBody]: /afterBody.PNG "afterBody"
+[afterHead]: /afterHead.PNG "afterHead"
 
 
 ---
